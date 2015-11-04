@@ -1,0 +1,95 @@
+@charset "utf-8";
+
+#globalheader-container {
+    display:none;
+}
+#container {
+    padding-top: 0px;
+}
+.footer-action-wrapper{
+    display:none;
+}
+.touch-item-list{
+    display:none;
+}
+.date{
+    color: white;
+    background: #444B99;
+    padding: 0px 10px;
+}
+.entry-content h2{
+    padding: 10px 15px;
+    border-top: 3px solid #a4a4a4;
+    border-bottom: 3px solid #a4a4a4;
+    }
+.entry-content h3{
+    padding: 5px 15px; 
+    border-left: 10px solid #a4a4a4;
+    border-bottom: 1px solid #a4a4a4;
+    }
+.entry-content h4{
+    background: #f3f3f3;
+    padding: 5px 15px; 
+    border-left: 10px solid #a4a4a4;
+    }
+.entry-content h5{
+    padding: 5px 15px; 
+    border-left: 10px solid #a4a4a4;
+    }
+.entry img{
+    margin: 0 auto;
+    display: block;
+    border: 1px #DCDCDC solid;
+}
+.hatena-module-title{
+    padding-left: 10px;
+    border-bottom: 3px solid #444B99;
+}
+.bg-solid{
+    border: 2px solid #DCDCDC;
+    background: #F3F3F3;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 5px;
+}
+.bg-frame{
+    border: 2px solid #DCDCDC;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 5px;
+}
+div #breadcrumb div {
+    display: inline;
+    font-size: 13px;
+}
+.y_marker{
+  margin:0 0.3em;
+  background: -moz-linear-gradient(transparent 60%, #FFFF00 0%);      /* Firefox用 */
+  background: -webkit-linear-gradient(transparent 60%, #FFFF00 0%);   /* Safari用 */
+  background: -ms-linear-gradient(transparent 60%, #FFFF00 0%);       /* IE用 */
+  background: -o-linear-gradient(transparent 60%, #FFFF00 0%);        /* Opera用 */
+  background: linear-gradient(transparent 60%, #FFFF00 0%);           /* Default */
+}
+.g_marker{
+  margin:0 0.3em;
+  background: -moz-linear-gradient(transparent 60%, #00FF00 0%);      /* Firefox用 */
+  background: -webkit-linear-gradient(transparent 60%, #00FF00 0%);   /* Safari用 */
+  background: -ms-linear-gradient(transparent 60%, #00FF00 0%);       /* IE用 */
+  background: -o-linear-gradient(transparent 60%, #00FF00 0%);        /* Opera用 */
+  background: linear-gradient(transparent 60%, #00FF00 0%);           /* Default */
+}
+.m_marker{
+  margin:0 0.3em;
+  background: -moz-linear-gradient(transparent 60%, #FF00FF 0%);      /* Firefox用 */
+  background: -webkit-linear-gradient(transparent 60%, #FF00FF 0%);   /* Safari用 */
+  background: -ms-linear-gradient(transparent 60%, #FF00FF 0%);       /* IE用 */
+  background: -o-linear-gradient(transparent 60%, #FF00FF 0%);        /* Opera用 */
+  background: linear-gradient(transparent 60%, #FF00FF 0%);           /* Default */
+}
+
+@media screen and (max-width: 341px){
+  .mobile-adsense {
+    position: relative;
+    width: 320px;
+    left: -10px;
+}}

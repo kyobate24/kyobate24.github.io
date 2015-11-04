@@ -11,6 +11,53 @@
     margin: 5px;
     border-radius: 5px;
 }
+.follow-btn{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.follow-btn a {
+    display: inline-block;
+    height: 45px;
+    line-height: 22px;
+    width: 25%;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+}
+.follow-btn .hatena {
+    color: #3D3F44;
+    border: 2px solid #3D3F44;
+    background: #ffffff; 
+}
+.follow-btn .twitter {
+    color: #00ACEE;
+    border: 2px solid #00ACEE;
+    background: #ffffff; 
+}
+.follow-btn .feedly { 
+    color: #70CA3B;
+    border: 2px solid #70CA3B;
+    background: #ffffff;
+}
+.follow-btn .hatena:hover {
+    color: #ffffff;
+    background: #3D3F44;
+    transition: all .3s;
+}
+.follow-btn .twitter:hover {
+    color: #ffffff;
+    background: #00ACEE;
+    transition: all .3s;
+}
+.follow-btn .feedly:hover {
+    color: #ffffff;
+    background: #70CA3B;
+    transition: all .3s;
+}
+.text-small{
+    font-size: 9px;
+}
 div #breadcrumb div {
     display: inline;
     font-size: 13px;

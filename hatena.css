@@ -1,3 +1,4 @@
+/* 本文中の枠 */
 .bg-solid{
     border: 2px solid #DCDCDC;
     background: #F3F3F3;
@@ -11,6 +12,59 @@
     margin: 5px;
     border-radius: 5px;
 }
+/* シェアボタン */
+.share-flat{
+    margin-bottom: 10px;
+    text-align: center;
+}
+.share-flat-inner a {
+    position: relative;
+    display: inline-block;
+    width: 15%;
+    height: 40px;
+    line-height: 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+}
+.share-flat .small-text{
+    font-size: 10px;
+}
+.share-flat .hatena-bookmark-button{
+    background: #00A4DE;
+}
+.share-flat .twitter-button{
+    background: #55ACEE;
+}
+.share-flat .googleplus-button{
+    background: #C53727;
+}
+.share-flat .facebook-button{
+    background: #405BA7;
+}
+.share-flat .pocket-button{
+    background: #EE4256;
+}
+.share-flat .line-button{
+    position:relative;
+    top: 1px;
+    background: #00C300;
+}
+.share-flat a:hover{
+    opacity: 0.6;
+}
+@media screen and (min-width: 480px) {
+    .line-hide{
+        display: none;
+    }
+    .share-flat-inner a{
+        width: 18%;
+    }
+}
+
+/* フォローボタン */
 .follow-btn{
     width: 100%;
     text-align: center;
@@ -58,10 +112,14 @@
 .text-small{
     font-size: 9px;
 }
+
+/* パンくずリスト */
 div #breadcrumb div {
     display: inline;
     font-size: 13px;
 }
+
+/* マーカー */
 .y_marker{
   margin:0 0.3em;
   background: -moz-linear-gradient(transparent 60%, #FFFF00 0%);      /* Firefox用 */

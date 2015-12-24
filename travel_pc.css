@@ -31,8 +31,21 @@
     margin: 5px;
     border-radius: 5px;
 }
-.bg-frame{
-    border: 2px solid #DCDCDC;
+.bg-blue {
+    color: #FFFFFF;
+    background: #003399;
+    padding: 1px 2px;
+    border-radius: 2px;
+}
+.bg-orange {
+    color: #FFFFFF;
+    background: #FF6633;
+    padding: 1px 2px;
+    border-radius: 2px;
+}
+.redbox {
+    border: 2px solid #FF66CC;
+    background-color: #FF99CC;
     padding: 20px;
     margin: 5px;
     border-radius: 5px;
@@ -40,28 +53,4 @@
 div #breadcrumb div {
     display: inline;
     font-size: 13px;
-}
-.y_marker{
-  margin:0 0.3em;
-  background: -moz-linear-gradient(transparent 60%, #FFFF00 0%);      /* Firefox用 */
-  background: -webkit-linear-gradient(transparent 60%, #FFFF00 0%);   /* Safari用 */
-  background: -ms-linear-gradient(transparent 60%, #FFFF00 0%);       /* IE用 */
-  background: -o-linear-gradient(transparent 60%, #FFFF00 0%);        /* Opera用 */
-  background: linear-gradient(transparent 60%, #FFFF00 0%);           /* Default */
-}
-.g_marker{
-  margin:0 0.3em;
-  background: -moz-linear-gradient(transparent 60%, #00FF00 0%);      /* Firefox用 */
-  background: -webkit-linear-gradient(transparent 60%, #00FF00 0%);   /* Safari用 */
-  background: -ms-linear-gradient(transparent 60%, #00FF00 0%);       /* IE用 */
-  background: -o-linear-gradient(transparent 60%, #00FF00 0%);        /* Opera用 */
-  background: linear-gradient(transparent 60%, #00FF00 0%);           /* Default */
-}
-.m_marker{
-  margin:0 0.3em;
-  background: -moz-linear-gradient(transparent 60%, #FF00FF 0%);      /* Firefox用 */
-  background: -webkit-linear-gradient(transparent 60%, #FF00FF 0%);   /* Safari用 */
-  background: -ms-linear-gradient(transparent 60%, #FF00FF 0%);       /* IE用 */
-  background: -o-linear-gradient(transparent 60%, #FF00FF 0%);        /* Opera用 */
-  background: linear-gradient(transparent 60%, #FF00FF 0%);           /* Default */
 }

@@ -121,6 +121,34 @@ div #breadcrumb div {
     font-size: 13px;
 }
 
+/* Amazon アソシエイツ */
+.hatena-asin-detail a {
+    color: #e47911;
+}
+.hatena-asin-detail a:hover {
+    color: #ff9900;
+}
+.hatena-asin-detail {
+    position: relative;
+}
+.hatena-asin-detail > a,
+.hatena-asin-detail > div {
+    position: relative;
+    z-index: 2;
+}
+.hatena-asin-detail::before {
+    color: #ddd;
+    content: "\f034";
+    cursor: default;
+    display: inline-block;
+    font: 36px/1 blogicon;
+    vertical-align: middle;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+
 /* マーカー */
 .y_marker{
   margin:0 0.3em;

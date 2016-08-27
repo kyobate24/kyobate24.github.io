@@ -104,7 +104,7 @@
     padding:5px;
 }
 .share-buttons .inner .share-text{
-    font-size: 11px;
+    font-size: 10px;
 }
 .share-buttons .inner .hatena-bookmark-button{
     color:#008fde;
@@ -230,4 +230,8 @@
     border: 1px solid #CCFFCC;
     padding: 48px 64px;
 }
+.share-buttons .inner .share-text{
+    font-size: 15px;
+}
+
 }

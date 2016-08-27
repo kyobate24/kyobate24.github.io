@@ -115,12 +115,6 @@
     font-size: 9px;
 }
 
-/* パンくずリスト */
-div #breadcrumb div {
-    display: inline;
-    font-size: 13px;
-}
-
 /* Amazon アソシエイツ */
 .hatena-asin-detail a {
     color: #e47911;

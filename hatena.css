@@ -149,28 +149,35 @@ div #breadcrumb div {
     z-index: 1;
 }
 
-/* マーカー */
-.y_marker{
-  margin:0 0.3em;
-  background: -moz-linear-gradient(transparent 60%, #FFFF00 0%);      /* Firefox用 */
-  background: -webkit-linear-gradient(transparent 60%, #FFFF00 0%);   /* Safari用 */
-  background: -ms-linear-gradient(transparent 60%, #FFFF00 0%);       /* IE用 */
-  background: -o-linear-gradient(transparent 60%, #FFFF00 0%);        /* Opera用 */
-  background: linear-gradient(transparent 60%, #FFFF00 0%);           /* Default */
+/* カテゴリー */
+.categories a {
+  color: #ffffff;
+  background-color: #32936f;
 }
-.g_marker{
-  margin:0 0.3em;
-  background: -moz-linear-gradient(transparent 60%, #00FF00 0%);      /* Firefox用 */
-  background: -webkit-linear-gradient(transparent 60%, #00FF00 0%);   /* Safari用 */
-  background: -ms-linear-gradient(transparent 60%, #00FF00 0%);       /* IE用 */
-  background: -o-linear-gradient(transparent 60%, #00FF00 0%);        /* Opera用 */
-  background: linear-gradient(transparent 60%, #00FF00 0%);           /* Default */
+.categories a:hover {
+  color: #ffffff;
+  background-color: #16c172;
 }
-.m_marker{
-  margin:0 0.3em;
-  background: -moz-linear-gradient(transparent 60%, #FF00FF 0%);      /* Firefox用 */
-  background: -webkit-linear-gradient(transparent 60%, #FF00FF 0%);   /* Safari用 */
-  background: -ms-linear-gradient(transparent 60%, #FF00FF 0%);       /* IE用 */
-  background: -o-linear-gradient(transparent 60%, #FF00FF 0%);        /* Opera用 */
-  background: linear-gradient(transparent 60%, #FF00FF 0%);           /* Default */
+
+/* 見出し */
+.entry-content h2 {
+  color: #353535;
+  border-top: 3px solid #32936f;
+  border-bottom: 3px solid #32936f;
+  padding: 8px;
+}
+.entry-content h3 {
+  color: #353535;
+  border-left: 5px solid #32936f;
+  padding: 5px 10px;
+}
+.entry-content h4 {
+  color: #353535;
+}
+.entry-content h4:before {
+  content:"\f00c";
+  font-family: FontAwesome;
+  display: inline-block;
+  color: #353535;
+  padding-right:10px;
 }

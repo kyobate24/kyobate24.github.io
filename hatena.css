@@ -87,6 +87,12 @@
   font-weight:bold;
 }
 
+/* サイドバー タイトル */
+.hatena-module-title {
+  border-bottom: 3px solid #32936f;
+  padding: 3px 0px;
+}
+
 /* SNSシェアボタン */
 .share-buttons{
     margin-bottom: 10px;

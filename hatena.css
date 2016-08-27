@@ -66,55 +66,6 @@
     }
 }
 
-/* フォローボタン */
-.follow-btn{
-    width: 100%;
-    text-align: center;
-    margin-bottom: 10px;
-}
-.follow-btn a {
-    display: inline-block;
-    height: 45px;
-    line-height: 22px;
-    width: 25%;
-    font-size: 14px;
-    text-align: center;
-    text-decoration: none;
-}
-.follow-btn .hatena {
-    color: #3D3F44;
-    border: 2px solid #3D3F44;
-    background: #ffffff; 
-}
-.follow-btn .twitter {
-    color: #00ACEE;
-    border: 2px solid #00ACEE;
-    background: #ffffff; 
-}
-.follow-btn .feedly { 
-    color: #70CA3B;
-    border: 2px solid #70CA3B;
-    background: #ffffff;
-}
-.follow-btn .hatena:hover {
-    color: #ffffff;
-    background: #3D3F44;
-    transition: all .3s;
-}
-.follow-btn .twitter:hover {
-    color: #ffffff;
-    background: #00ACEE;
-    transition: all .3s;
-}
-.follow-btn .feedly:hover {
-    color: #ffffff;
-    background: #70CA3B;
-    transition: all .3s;
-}
-.text-small{
-    font-size: 9px;
-}
-
 /* Amazon アソシエイツ */
 .hatena-asin-detail a {
     color: #e47911;
@@ -185,6 +136,64 @@
 .date a:hover {
   color:#003333;
   font-weight:bold;
+}
+
+/* フォローボタン */
+.content-inner-follow-buttons{
+    width: 80%;
+    text-align: center;
+    margin-top:40px;
+    letter-spacing: -.40em;
+}
+.content-inner-follow-buttons .follow-title {
+    letter-spacing: normal;
+    width:100%;
+    color:#666;
+    margin-bottom:5px;
+}
+.content-inner-follow-buttons a {
+    display: inline-block;
+    letter-spacing: normal;
+    position: relative;
+    width: 30%;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    padding:20px 0;
+    margin:1px;
+    overflow: hidden;
+    z-index:2;
+}
+.content-inner-follow-buttons a:hover {
+    transition: all .3s;
+}
+.content-inner-follow-buttons .inner-text {
+    font-size:16px;
+    padding-left:5px;
+}
+.content-inner-follow-buttons .hatena {
+    color: #38393C;
+    border: 1px solid #ffffff;
+    background: #ffffff;
+}
+.content-inner-follow-buttons .hatena:hover {
+    border: 1px solid #38393C;
+}
+.content-inner-follow-buttons .twitter {
+    color: #55acee;
+    border: 1px solid #ffffff;
+    background: #ffffff;
+}
+.content-inner-follow-buttons .twitter:hover {
+    border: 1px solid #55acee;
+}
+.content-inner-follow-buttons .feedly {
+    color: #6cc655;
+    border: 1px solid #ffffff;
+    background: #ffffff;
+}
+.content-inner-follow-buttons .feedly:hover {
+    border: 1px solid #6cc655;
 }
 
 @media (min-width: 768px) {

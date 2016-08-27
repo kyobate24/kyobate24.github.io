@@ -98,13 +98,13 @@
     width: 15%;
     height: 45px;
     line-height: 25px;
-    font-size: 12px;
+    font-size: 16px;
     text-align: center;
     text-decoration: none;
     padding:5px;
 }
 .share-buttons .inner .share-text{
-    font-size: 85%;
+    font-size: 12px;
 }
 .share-buttons .inner .hatena-bookmark-button{
     color:#008fde;

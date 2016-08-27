@@ -173,6 +173,7 @@ div #breadcrumb div {
 }
 .entry-content h4 {
   color: #353535;
+  border-bottom: 2px solid #32936f;
 }
 .entry-content h4:before {
   content:"\f00c";

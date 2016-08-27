@@ -182,3 +182,20 @@ div #breadcrumb div {
   color: #32936f;
   padding-right:10px;
 }
+
+/* 日付 */
+.date a {
+  color:#003300;
+  font-weight:bold;
+}
+.date a:hover {
+  color:#003333;
+  font-weight:bold;
+}
+
+@media (min-width: 768px) {
+.entry {
+    border: 1px solid #CCFFCC;
+    padding: 48px 64px;
+}
+}

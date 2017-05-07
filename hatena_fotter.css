@@ -151,6 +151,34 @@
     background:#6cc655;
 }
 
+@media (max-width: 767px) {
+/* スマホ版フォローボタン */
+.content-inner-follow-buttons{
+    text-align: center;
+    width:100%;
+    letter-spacing: -.40em;
+}
+.content-inner-follow-buttons .follow-title {
+    letter-spacing: normal;
+    width:100%;
+    color:#666;
+    margin-bottom:5px;
+}
+.content-inner-follow-buttons a {
+    display: inline-block;
+    letter-spacing: normal;
+    width:28%;
+    text-align: center;
+    text-decoration: none;
+    padding:6% 0;
+    margin:1%;
+}
+.content-inner-follow-buttons .inner-text {
+    font-size:13px;
+}
+}
+
+@media (min-width: 768px) {
 /* PC版フォローボタン */
 .content-inner-follow-buttons{
     width: 100%;

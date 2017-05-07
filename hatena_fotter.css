@@ -1,0 +1,197 @@
+@charset "utf-8";
+
+.bg-solid{
+    border: 2px solid #DCDCDC;
+    background: #F3F3F3;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 5px;
+}
+.bg-frame{
+    border: 2px solid #DCDCDC;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+/* Amazon アソシエイツ */
+.hatena-asin-detail a {
+    color: #e47911;
+}
+.hatena-asin-detail a:hover {
+    color: #ff9900;
+}
+.hatena-asin-detail {
+    position: relative;
+}
+.hatena-asin-detail > a,
+.hatena-asin-detail > div {
+    position: relative;
+    z-index: 2;
+}
+.hatena-asin-detail::before {
+    color: #ddd;
+    content: "\f034";
+    cursor: default;
+    display: inline-block;
+    font: 36px/1 blogicon;
+    vertical-align: middle;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+
+/* SNSシェアボタン */
+.share-buttons{
+    margin-bottom: 10px;
+    text-align: center;
+}
+.share-buttons .inner a {
+    position: relative;
+    display: inline-block;
+    width: 15%;
+    height: 45px;
+    line-height: 25px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    padding:5px;
+}
+.share-buttons .inner .share-text{
+    font-size: 10px;
+}
+.share-buttons .inner .hatena-bookmark-button{
+    color:#008fde;
+    border:1px solid #008fde;
+    background: #fff;
+}
+.share-buttons .inner .hatena-bookmark-button:hover{
+    color:#fff;
+    background: #008fde;
+}
+.share-buttons .inner .hatena-bookmark-button:active{
+    background: #5478A5;
+}
+.share-buttons .inner .facebook-button{
+    color:#305097;
+    border:1px solid #305097;
+    background: #fff;
+}
+.share-buttons .inner .facebook-button:hover{
+    color:#fff;
+    background: #305097;
+}
+.share-buttons .inner .facebook-button:active{
+    background: #213254;
+}
+.share-buttons .inner .twitter-button{
+    color:#55acee;
+    border:1px solid #55acee;
+    background: #fff;
+}
+.share-buttons .inner .twitter-button:hover{
+    color:#fff;
+    background: #55acee;
+}
+.share-buttons .inner .twitter-button:active{
+    background: #0285b7;
+}
+.share-buttons .inner .googleplus-button{
+    color:#db4a39;
+    border:1px solid #db4a39;
+    background: #fff;
+}
+.share-buttons .inner .googleplus-button:hover{
+    color:#fff;
+    background: #db4a39;
+}
+.share-buttons .inner .googleplus-button:active{
+    background: #a23629;
+}
+.share-buttons .inner .pocket-button{
+    color:#d3505a;
+    border:1px solid #d3505a;
+    background: #fff;
+}
+.share-buttons .inner .pocket-button:hover{
+    color:#fff;
+    background: #d3505a;
+}
+.share-buttons .inner .pocket-button:active{
+    background: #b5392c;
+}
+
+/* フォローボタン */
+.content-inner-follow-buttons .hatena {
+    color: #38393C;
+    border: 1px solid #38393C;
+    background: #ffffff;
+}
+.content-inner-follow-buttons .hatena:hover:after {
+    top:0;
+    background:#38393C;
+}
+.content-inner-follow-buttons .twitter {
+    color: #55acee;
+    border: 1px solid #55acee;
+    background: #ffffff;
+}
+.content-inner-follow-buttons .twitter:hover:after {
+    top:0;
+    background:#55acee;
+}
+.content-inner-follow-buttons .feedly {
+    color: #6cc655;
+    border: 1px solid #6cc655;
+    background: #ffffff;
+}
+.content-inner-follow-buttons .feedly:hover:after {
+    top:0;
+    background:#6cc655;
+}
+
+/* PC版フォローボタン */
+.content-inner-follow-buttons{
+    width: 100%;
+    text-align: center;
+    margin-top:40px;
+    letter-spacing: -.40em;
+}
+.content-inner-follow-buttons .follow-title {
+    letter-spacing: normal;
+    width:100%;
+    color:#666;
+}
+.content-inner-follow-buttons a {
+    display: inline-block;
+    letter-spacing: normal;
+    position: relative;
+    width: 30%;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    padding:20px 0;
+    margin:3px;
+    overflow: hidden;
+    z-index:2;
+}
+.content-inner-follow-buttons a:hover {
+    color:#fff;
+    transition: all .3s;
+}
+.content-inner-follow-buttons a:after {
+    position:absolute;
+    content:'';
+    width:100%;
+    height:100%;
+    top:-100%;
+    left:0;
+    z-index:-1;
+    transition: 0.2s;
+}
+.content-inner-follow-buttons .inner-text {
+    font-size:16px;
+    padding-left:5px;
+}
+}

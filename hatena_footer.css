@@ -7,24 +7,24 @@
 	padding: 2px;
 	border-radius: 2px;
 
-.bg-solid{
+.bg-solid {
     border: 2px solid #DCDCDC;
     background: #F3F3F3;
     padding: 20px;
     margin: 5px;
     border-radius: 5px;
 }
-.bg-frame{
+.bg-frame {
     border: 2px solid #DCDCDC;
     padding: 20px;
     margin: 5px;
     border-radius: 5px;
 }
-.huto {
+.futo {
 	font-weight:bold;
 }
 
-.hutoaka {
+.futoaka {
 	font-weight:bold;
 	color:#ff0000;
 }

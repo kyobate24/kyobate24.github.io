@@ -1,5 +1,12 @@
 @charset "utf-8";
 
+.bg-orange {
+	font-size: 95%;
+	color: #FFFFFF;
+	background: #FF6633;
+	padding: 2px;
+	border-radius: 2px;
+
 .bg-solid{
     border: 2px solid #DCDCDC;
     background: #F3F3F3;
@@ -13,6 +20,15 @@
     margin: 5px;
     border-radius: 5px;
 }
+.huto {
+	font-weight:bold;
+}
+
+.hutoaka {
+	font-weight:bold;
+	color:#ff0000;
+}
+
 
 /* Amazon アソシエイツ */
 .hatena-asin-detail a {
